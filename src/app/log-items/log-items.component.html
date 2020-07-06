@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+          <hr>
+          <ol>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+          </ol>
+        <hr>
+        <button class="btn btn-primary">display details</button>
+        <p *ngIf="showSecret">Secret pasword  = tuna</p>
+        <div *ngFor="let logItem of log">{{logItem}}</div>
+      </div>
+    </div>
+</div>
